@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamKart 🛒 Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>DreamKart 🛍️</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart 🛒</a>
+      </nav>
+    </header>
+
+    <section class="cart-section">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <h3>Total: $<span id="cart-total">0.00</span></h3>
+      <button onclick="checkout()">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+      <p>© 2025 DreamKart. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
